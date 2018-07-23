@@ -120,7 +120,7 @@ describe('SQL Exercises -', function () {
 
     readAndExecute('exercises').then(rows => results = rows).then(() => {
       sqlConnection.end();
-      done()
+      done();
     });
   });
 
