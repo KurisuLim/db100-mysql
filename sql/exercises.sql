@@ -107,7 +107,7 @@ SELECT
     active,
     address_id
 FROM staff
-WHERE password NOT LIKE NULL;
+WHERE PASSWORD  IS NOT   NULL;
 
 # 3h. Select all columns minus the password column from the staff table for rows that do not contain a password.
 SELECT
